@@ -1,0 +1,2 @@
+# A_Simple_Efficient_Light-weighted_CNN_for_5G_LOS_NLOS_Identification
+Code for A_Simple_Efficient_Light-weighted_CNN_for_5G_LOS_NLOS_Identification
