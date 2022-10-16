@@ -40,9 +40,19 @@ Run the bash file "test.sh"
 
 # Reference
 
-	@ARTICLE {SEL-CNN,
-	author    = "Yasong Zhu, Jiabao Wang, Bing Xu, Peng Liu, Wangdong Qi",
-	title     = "A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification",
-	journal   = {IEEE XXXX},
-	year      = {2022},
-	}
+@article{DBLP:journals/icl/CuiGHTC21,
+  author    = {Zhichao Cui and
+               Yufang Gao and
+               Jing Hu and
+               Shiwei Tian and
+               Jian Cheng},
+  title     = {{LOS/NLOS} Identification for Indoor {UWB} Positioning Based on Morlet
+               Wavelet Transform and Convolutional Neural Networks},
+  journal   = {{IEEE} Commun. Lett.},
+  volume    = {25},
+  number    = {3},
+  pages     = {879--882},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/LCOMM.2020.3039251},
+  doi       = {10.1109/LCOMM.2020.3039251},
+}
