@@ -3,7 +3,7 @@ Code for A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification
 
 
 # DATA Preparation
-You can download the data from [Baidu](http://) .
+You can download the data from [Baidu] (https://pan.baidu.com/s/1BFoogq4PqT2mU8H9j2w4Qg), Extracting code(6txw).
 
 # Training and Testing
 ## 1. Configuration
@@ -23,5 +23,5 @@ Run the bash file "train_models.sh"
 ## 3. Testing
 Run the bash file "test.sh"
 
-Reference
+# Reference
 
