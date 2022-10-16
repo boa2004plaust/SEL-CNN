@@ -39,6 +39,5 @@ Run the bash file "train_models.sh"
 Run the bash file "test.sh"
 
 # Reference
-
-Zhichao Cui, Yufang Gao, Jing Hu, Shiwei Tian, Jian Cheng:
+[1] Zhichao Cui, Yufang Gao, Jing Hu, Shiwei Tian, Jian Cheng:
 LOS/NLOS Identification for Indoor UWB Positioning Based on Morlet Wavelet Transform and Convolutional Neural Networks. IEEE Commun. Lett. 25(3): 879-882 (2021)
