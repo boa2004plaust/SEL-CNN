@@ -40,19 +40,5 @@ Run the bash file "test.sh"
 
 # Reference
 
-@article{DBLP:journals/icl/CuiGHTC21,
-  author    = {Zhichao Cui and
-               Yufang Gao and
-               Jing Hu and
-               Shiwei Tian and
-               Jian Cheng},
-  title     = {{LOS/NLOS} Identification for Indoor {UWB} Positioning Based on Morlet
-               Wavelet Transform and Convolutional Neural Networks},
-  journal   = {{IEEE} Commun. Lett.},
-  volume    = {25},
-  number    = {3},
-  pages     = {879--882},
-  year      = {2021},
-  url       = {https://doi.org/10.1109/LCOMM.2020.3039251},
-  doi       = {10.1109/LCOMM.2020.3039251},
-}
+Zhichao Cui, Yufang Gao, Jing Hu, Shiwei Tian, Jian Cheng:
+LOS/NLOS Identification for Indoor UWB Positioning Based on Morlet Wavelet Transform and Convolutional Neural Networks. IEEE Commun. Lett. 25(3): 879-882 (2021)
