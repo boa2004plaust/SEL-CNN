@@ -9,7 +9,7 @@ CITATION:
 
 If you use this code in your research, please cite:
 
-	@ARTICLE {MLOFO,
+	@ARTICLE {SEL-CNN,
 	author    = "Yasong Zhu, Jiabao Wang, Bing Xu, Peng Liu, Wangdong Qi",
 	title     = "A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification",
 	journal   = {IEEE XXXX},
@@ -40,3 +40,9 @@ Run the bash file "test.sh"
 
 # Reference
 
+@ARTICLE {SEL-CNN,
+	author    = "Yasong Zhu, Jiabao Wang, Bing Xu, Peng Liu, Wangdong Qi",
+	title     = "A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification",
+	journal   = {IEEE XXXX},
+	year      = {2022},
+}
