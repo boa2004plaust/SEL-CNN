@@ -1,7 +1,27 @@
 # A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification
 Code for A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification
+<<<<<<< HEAD
+=======
+
+Author: Yasong Zhu, Jiabao Wang, Bing Xu*, Peng Liu, Wangdong Qi.
+>>>>>>> parent of 431729c (Update README.md)
 
 
+<<<<<<< HEAD
+=======
+CITATION:
+
+If you use this code in your research, please cite:
+
+	@ARTICLE {SEL-CNN,
+	author    = "Yasong Zhu, Jiabao Wang, Bing Xu, Peng Liu, Wangdong Qi",
+	title     = "A Simple Efficient Light-weighted CNN for 5G LOS/NLOS Identification",
+	journal   = {IEEE XXXX},
+	year      = {2022},
+	}
+  
+  
+>>>>>>> parent of 431729c (Update README.md)
 # DATA Preparation
 You can download the data from [Baidu] (https://pan.baidu.com/s/1BFoogq4PqT2mU8H9j2w4Qg 
 ), Extracting code(6txw).
