@@ -183,6 +183,35 @@ class MWTCNN(nn.Module):
         return x
 
 
+class MWTCNN2D(nn.Module):
+    def __init__(self):
+        super(MWTCNN2D, self).__init__()
+        self.conv1 = nn.Conv2d(1, 64, 9, 1, 0)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(64, 128, 3, 1, 0)
+        self.relu = nn.ReLU()
+        self.flatten = nn.Flatten()
+        self.fc1 = nn.Linear(128*29*29, 128)
+        self.fc2 = nn.Linear(128, 128)
+        self.classifier = nn.Linear(128, 2)
+        self.dropout = nn.Dropout(0.25)
+
+    def forward(self, x):
+        x = self.conv1(x)
+        x = self.relu(x)
+        x = self.pool(x)
+        x = self.conv2(x)
+        x = self.relu(x)
+        x = self.pool(x)
+        x = self.flatten(x)
+        x = self.fc1(x)
+        x = self.dropout(x)
+        x = self.fc2(x)
+        x = self.dropout(x)
+        x = self.classifier(x)
+        return x
+        
+
 def compute_FLOPS_PARAMS(x, model):
     import thop
     flops, params = thop.profile(model, inputs=(x,), verbose=False)
@@ -214,4 +243,9 @@ if __name__ == '__main__':
     print('###############MWTCNN################')
     model = MWTCNN()
     x = torch.randn(1, 4, 128)
+    compute_FLOPS_PARAMS(x, model)
+    
+    print('###############MWTCNN2D################')
+    model = MWTCNN2D()
+    x = torch.randn(1, 1, 128, 128)
     compute_FLOPS_PARAMS(x, model)
