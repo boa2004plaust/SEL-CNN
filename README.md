@@ -14,8 +14,8 @@ If you use this code in your research, please cite:
   
 
 # DATA Preparation
-You can download the data from [Baidu] (https://pan.baidu.com/s/1BFoogq4PqT2mU8H9j2w4Qg 
-), Extracting code(6txw).
+You can download the data from [Baidu] (https://pan.baidu.com/s/1KEeYH3SMdQA-nHxkFQ1zgg?pwd=x321 
+), Extracting code(x321).
 
 # Training and Testing
 ## 1. Configuration
